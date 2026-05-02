@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Force clear out raw white screen falls backs */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #030504;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-sizing: border-box;
+}
